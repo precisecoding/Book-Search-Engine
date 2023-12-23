@@ -13,7 +13,7 @@ const corsOptions = {
   optionsSuccessStatus: 200 // For legacy browser support
 };
 
-app.use(cors(corsOptions));
+
 // Import the two parts of a GraphQL schema
 const { typeDefs, resolvers } = require('./schemas');
 const db = require('./config/connection');
@@ -25,6 +25,7 @@ const server = new ApolloServer({
 });
 
 const app = express();
+app.use(cors(corsOptions));
 // Create a new instance of an Apollo server with the GraphQL schema
 const startApolloServer = async () => {
   await server.start();
