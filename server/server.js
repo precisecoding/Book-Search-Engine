@@ -5,7 +5,15 @@ require('dotenv').config();
 const { ApolloServer } = require('@apollo/server');
 const { expressMiddleware } = require('@apollo/server/express4');
 const { authMiddleware } = require('./utils/auth');
+const cors = require('cors');
 
+// CORS configuration
+const corsOptions = {
+  origin: 'https://65867da0818c42536d285fab--curious-souffle-974e2b.netlify.app', // Replace with your Netlify URL
+  optionsSuccessStatus: 200 // For legacy browser support
+};
+
+app.use(cors(corsOptions));
 // Import the two parts of a GraphQL schema
 const { typeDefs, resolvers } = require('./schemas');
 const db = require('./config/connection');
