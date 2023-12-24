@@ -101,16 +101,16 @@ You can use this web application to login as a user then search for books, save 
 
 
 Page Load
-![Screenshot of web app showing a book search engine.](./client/src/assets/bsepageload.png)
+![Screenshot of web app showing a book search engine on page load.](./client/src/assets/bsepageload.png)
 
 Search for Books
-![Screenshot of web app showing a book search engine.](./client/src/assets/booksearchengine.png)
+![Screenshot of web app showing a book search engine with a search shown as an example.](./client/src/assets/booksearchengine.png)
 
 Save Book Searches
-![Screenshot of web app showing a book search engine.](./client/src/assets/bsesavebook.png)
+![Screenshot of web app showing the save book function.](./client/src/assets/bsesavebook.png)
 
 Delete Book Searches
-![Screenshot of web app showing a book search engine.](./client/src/assets/bsedeletebook.png)
+![Screenshot of web app showing the delete book function.](./client/src/assets/bsedeletebook.png)
 
 ### Link to github repo
 
