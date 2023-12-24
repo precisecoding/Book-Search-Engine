@@ -99,9 +99,18 @@ first type npm install in the terminal, then npm run develop in the terminal to 
 
 You can use this web application to login as a user then search for books, save the books you have searched for, and delete books books you have searched for.
 
-```md
+
+Page Load
+![Screenshot of web app showing a book search engine.](./client/src/assets/bsepageload.png)
+
+Search for Books
 ![Screenshot of web app showing a book search engine.](./client/src/assets/booksearchengine.png)
-```
+
+Save Book Searches
+![Screenshot of web app showing a book search engine.](./client/src/assets/bsesavebook.png)
+
+Delete Book Searches
+![Screenshot of web app showing a book search engine.](./client/src/assets/bsedeletebook.png)
 
 ### Link to github repo
 
