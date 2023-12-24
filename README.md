@@ -1,6 +1,6 @@
 # 21 MERN: Book Search Engine
 
-## Description 
+## Description
 
 Your assignment this week is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
 
@@ -61,40 +61,73 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 ## Mock-Up
 
 The following screenshot shows the web application's appearance and functionality:
-![Screenshot of web app showing a book search engine.](./client/src/assets/booksearchengine.png) 
+
+```md
+![Screenshot of web app showing a book search engine.](./client/src/assets/booksearchengine.png)
+```
 
 ## Motivation
 
-I was motivated to complete this assignment to learn more about GraphQL and Apollo Server.
+I was motivated to complete this assignment to learn more about the popular technology architecture known as MERN stack: front end, back end, and database using GraphQL, Apollo server, JavaScript and JSON. MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack.
+
+This inlcudes the use of MongoDB Atlas, a multi-cloud database service by the same people that build MongoDB. Atlas simplifies deploying and managing your databases while offering the versatility you need to build resilient and performant global applications on the cloud providers of your choice.
 
 ## Why
 
-I created this project because I wanted to learn more about GraphQL and Apollo Server.
+I created this project because I wanted to challenge myself in becoming a full stack developer. I wanted to learn more about the MERN stack and how to use it to create a full stack application that uses GraphQL and apollow server. Like any web stack, you can build whatever you want in MERN — though it’s ideally suited for cases that are JSON-heavy, cloud-native, and that have dynamic web interfaces.
+
+Examples include workflow management, news aggregation, to-do apps and calendars, and interactive forums/social products — and whatever else you can dream up!
 
 ## What problem does it solve?
 
-This project solves the problem of excessive requests to the server, lowering the amount of requests and making the application more performant.
-
+This project solves the problem of creating a slow and heavy load on the server as would be the case with a RESTful API. By Integrating GraphQL and apollo server into a MERN (MongoDB, Express.js, React, Node.js) stack application, where MongoDB Atlas is used as the database, leveraging MongoDB Atlas as my database with cloud accessability. This setup allows you to use GraphQL's powerful data querying and manipulation capabilities, which can be more efficient and flexible than traditional REST APIs, seamless integration with MERN stack.
 
 ## What did you learn?
 
-I learned how to use GraphQL and Apollo Server to make a more performant application.
+I learned how to use GraphQL and apollo server to query and manipulate data, streamlining data fetching and management, reducing the requests on the server and increasing speed. This inlcudes a strongly typed API with schema validation, state management in client applications, and enhanced security with controlled data access. I learned MongoDB works extremely well with Node.js, and makes storing, manipulating, and representing JSON data at every tier of your application incredibly easy. For cloud-native applications.
+MongoDB Atlas makes it even easier, by giving you an auto-scaling MongoDB cluster on the cloud provider of your choice, as easy as a few button clicks. learned how to deploy a MERN stack application to render, and netlify.
 
 ## What makes your project stand out?
 
-My project stands out because it uses GraphQL and Apollo Server to make a more performant application.
+My project stands out because it uses GraphQL, apollo server, MERN stack, MongoDB Atlas with cloud accessability, and is deployed on render, and netlify. Incorporating Apollo Server and GraphQL into a MERN stack application with MongoDB Atlas provides a robust, efficient, and developer-friendly environment. It enhances the application's scalability, maintainability, and performance, making it a compelling choice for modern web application development.
 
-## ### Link to github repo:
+## Installation
+
+first type npm install in the terminal, then npm run develop in the terminal to start the server.
+
+## Usage
+
+You can use this web application to login as a user then search for books, save the books you have searched for, and delete books books you have searched for.
+
+```md
+![Screenshot of web app showing a book search engine.](./client/src/assets/booksearchengine.png)
+```
+
+### Link to github repo
 
 <https://github.com/precisecoding/Book-Search-Engine>
 
-### Deployed link:
+### Deployed link
 
-<>
+Deployed on render.com:
+<https://book-search-engine-s445.onrender.com>
 
-### This site was built using github pages.
+Deployed on netlify:
+[booksearchengine4dubtcmp.netlify.app, netlify link](https://booksearchengine4dubtcmp.netlify.app)
 
-<https://pages.github.com/>
+### This site was built using netlify and render
+
+Render:
+<https://render.com/>
+
+Netlify:
+<https://netlify.com>
+
+MongoDB Atlas:
+<https://www.mongodb.com/atlas/database>
+
+Apollo Server/GraphQL:
+<https://www.apollographql.com/docs/react/>
 
 ### License
 
@@ -103,6 +136,6 @@ MIT License:
 <https://choosealicense.com/licenses/mit/>
 LICENSE file included in repository.
 
-### Thanks to everyone for support and contributions!
+### Thanks to everyone for support and contributions
 
 Sources used: <https://developer.mozilla.org/en-US/>, <https://www.w3schools.com/>, <https://stackoverflow.com/>. Worked with TA George Yoo while on writing the pseudo code, once again he was very helpful.

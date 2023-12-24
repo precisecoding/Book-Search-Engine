@@ -46,7 +46,7 @@ const SavedBooks = () => {
 
   return (
     <>
-      <div fluid className="text-light bg-dark p-5">
+      <div className="text-light bg-dark p-5">
         <Container>
           <h1>Viewing {userData.username}'s books!</h1>
         </Container>
@@ -60,9 +60,9 @@ const SavedBooks = () => {
         </h2>
         <div>
           <Row>
-            {userData.savedBooks?.map((book) => {
+            {userData.savedBooks?.map((book, id) => {
               return (
-                <Col md="4">
+                <Col md="4" key={id}>
                   <Card key={book.bookId} border="dark">
                     {book.image ? (
                       <Card.Img

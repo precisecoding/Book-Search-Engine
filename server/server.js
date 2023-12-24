@@ -9,7 +9,7 @@ const cors = require('cors');
 
 // CORS configuration
 const corsOptions = {
-  origin: 'https://65867da0818c42536d285fab--curious-souffle-974e2b.netlify.app', // Replace with your Netlify URL
+  origin: '*', // Replace with your Netlify URL
   optionsSuccessStatus: 200 // For legacy browser support
 };
 
